@@ -4,6 +4,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #e9f5e9;
 	padding: 40px;
+	font-style: normal;
+	color: black;
 }
 
 /*Full*/
@@ -23,7 +25,6 @@ body {
 
 /*o mne*/
 .my-prof {
-	font-style: normal;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 17px;
@@ -32,22 +33,18 @@ body {
 }
 
 .name {
-	font-style: normal;
 	font-weight: 700;
 	font-size: 45px;
 	line-height: 55px;
-	color: #280303;
 	margin: 0 0 28px 0;
 }
 
 /* about */
 .about {
 	text-align: justify;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 24px;
-	color: black;
 	width: 685px;
 	margin: 0 0 28px 0;
 }
@@ -58,11 +55,9 @@ body {
 
 .title_block {
 	text-transform: uppercase;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 27px;
-	color: black;
 	margin: 0 0 20px 20px;
 }
 
@@ -71,15 +66,12 @@ body {
 }
 
 .texturl {
-	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
-	color: black;
 }
 
 .ulrlink {
-	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
@@ -93,12 +85,16 @@ body {
 
 .work_title {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
+	padding-top: 20px;
+	margin: 0;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
 }
 
-.work_title,
 .education_prof {
-	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 20px;
@@ -107,12 +103,11 @@ body {
 }
 
 .work_job {
-	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 20px;
-	color: #136bb4;
-	padding-left: 8px;
+	color: #950e0e;
+	padding-top: 6px;
 }
 
 .work {
@@ -120,21 +115,17 @@ body {
 }
 
 .data {
-	font-style: normal;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
-	color: black;
 	margin-bottom: 12px;
 	margin-top: 8px;
 }
 
 .opis {
-	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
-	color: #595959;
 	margin: 0;
 }
 
@@ -148,12 +139,9 @@ body {
 }
 
 .education_place {
-	margin: 0 0 12px 0;
-	font-style: normal;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 16px;
 	line-height: 20px;
-	color: black;
 	margin: 0 0 12px 0;
 }
 
@@ -173,11 +161,10 @@ body {
 }
 
 .project {
-	font-style: normal;
+	margin: 4px 0;
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 24px;
-	color: black;
 }
 
 .project_name {
@@ -200,7 +187,6 @@ body {
 }
 
 .sidebar-title {
-	font-style: normal;
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 27px;
@@ -210,7 +196,6 @@ body {
 
 .contact-style {
 	display: inline-block;
-	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
@@ -229,12 +214,10 @@ body {
 }
 
 .contact-text {
-	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 24px;
 	color: black;
-	font-style: normal;
 	text-decoration: none;
 }
 
@@ -253,7 +236,6 @@ body {
 }
 
 .skill-list-text {
-	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
@@ -265,7 +247,22 @@ body {
 }
 
 .soft-list-text {
-	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+}
+
+.language {
+	display: inline-block;
+	width: 78px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+}
+
+.soft-list-text-add {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
@@ -273,8 +270,7 @@ body {
 }
 
 .project-info {
-	color: black;
-	font-style: normal;
+	margin-bottom: 0;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
@@ -282,8 +278,7 @@ body {
 }
 
 .project-role {
-	color: black;
-	font-style: normal;
+	margin-top: 0;
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 24px;
