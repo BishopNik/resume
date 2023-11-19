@@ -40,13 +40,19 @@ body {
 }
 
 /* about */
+.summary {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 28px;
+}
+
 .about {
 	text-align: justify;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 24px;
 	width: 685px;
-	margin: 0 0 28px 0;
+	margin: 0;
 }
 
 .aboutme {
@@ -67,7 +73,7 @@ body {
 
 .texturl {
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 24px;
 }
 
@@ -96,15 +102,16 @@ body {
 
 .education_prof {
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 20px;
 	color: #950e0e;
 	margin: 0 0 12px 0;
 }
 
 .work_job {
+	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 20px;
 	color: #950e0e;
 	padding-top: 6px;
@@ -140,7 +147,7 @@ body {
 
 .education_place {
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 20px;
 	margin: 0 0 12px 0;
 }
@@ -184,6 +191,7 @@ body {
 .contact,
 .skill {
 	margin: 48px 0px 0px 48px;
+	padding: 0;
 }
 
 .sidebar-title {
@@ -221,6 +229,10 @@ body {
 	text-decoration: none;
 }
 
+.contact-text.link {
+	text-decoration: underline;
+}
+
 .contact-text:hover {
 	color: #4250b2;
 	text-decoration: underline;
@@ -255,7 +267,6 @@ body {
 
 .language {
 	display: inline-block;
-	width: 78px;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
