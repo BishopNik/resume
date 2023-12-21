@@ -179,6 +179,42 @@ body {
 	justify-content: space-between;
 }
 
+.project_link {
+	display: flex;
+	gap: 6px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.project_add_project {
+	position: relative;
+	color: #005fff;
+	text-decoration-line: underline;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.project_menu {
+	position: absolute;
+	top: -15px;
+	left: 0;
+	min-width: 200px;
+	padding: 15px;
+	background-color: rgb(255, 252, 243);
+	border: 0.5px solid black;
+	border-radius: 10px;
+	list-style: none;
+	scale: 0;
+	transform-origin: left 30%;
+	transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project_add_project:hover .project_menu {
+	scale: 1;
+	transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .url-list {
 	padding: 0 0 0 18px;
 	margin: 0;
